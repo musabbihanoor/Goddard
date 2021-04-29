@@ -1,0 +1,37 @@
+.main_text{
+    color:#FE802C;
+    
+}
+
+.orange_border{
+    border: 2px solid #FE802C;
+}
+.password_background{
+    background-color: #F1DDCE;
+}
+.labels{
+    margin-top:6px;
+}
+.orange_border_left{
+    border-left: 1px solid #FE802C;
+}
+.orange_border_right{
+    border-right:1px solid #FE802C;}
+.blue_border_right{
+    border-right: 1px solid #0D6EFD;
+}
+.blue_border_bottom{
+    border-bottom: 1px solid #0D6EFD;}
+.fields{
+    margin-top: 200px;
+    
+}
+.goddard_text{
+    padding:60px;
+}
+.lastbuttons{
+    margin-top: 150px;
+}
+.Register_btn{
+    margin-left: 55px;
+}

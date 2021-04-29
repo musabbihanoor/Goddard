@@ -1,30 +1,28 @@
-import React from 'react';
-import { Link } from "react-router-dom"
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Switch, Route, Redirect, BrowserRouter } from "react-router-dom"
+import Menu from './Components/menu';
+import Graph from './Components/graph'
+import Login from './Components/Login'
+import MainScreen from './Components/mainscreen'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>React Electron Boilerplate</p>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Link className="App-link" to="/about">Link to the About Page</Link>
-      </header>
-      
-    </div>
-  );
+export class App extends Component {
+  render() {
+    return (
+      <div className="App">
+
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Switch>
+            <Route exact path='/' component={() => <Menu />} />
+            <Route exact path='/graph' component={() => <Graph />} />
+            <Route exact path='/login' component={() => <Login />} />
+            <Route exact path='/mainscreen' component={() => <MainScreen />} />
+
+          </Switch>
+        </BrowserRouter>
+
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
