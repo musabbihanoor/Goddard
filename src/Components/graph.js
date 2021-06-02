@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import {ForceGraph2D} from 'react-force-graph';
+
+import {myData} from '../data'
+import './graph.css'
+
+console.log(myData)
 
 
-const Graph = () => {
-    return(
-        <div>
-            <Link to='/'>Back</Link>
-            <h2>Graph Componenet</h2>
-        </div>
-    )
+
+export class Graph extends Component {
+    
+    render() {
+        return (
+            <div>
+                <ForceGraph2D graphData={myData} />            </div>
+        )
+    }
 }
 
-export default Graph;
-
-
+export default Graph
