@@ -1,11 +1,5 @@
 # React Electron
-
-*Easy-to-understand-and-use boilerplate code for creating an Electron desktop app simply using Reactjs. Includes React Router.*
-<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [Electron](https://electronjs.org/), and [electron-builder](https://github.com/electron-userland/electron-builder).
-
-## Build Electron App With React - Video Tutorial
-[Video Tutorial at YouTube](https://www.youtube.com/playlist?list=PLASldBPN_pkCXhDdahLI2RIRy1tmGTeit)
 
 ## Usage
 1. Clone this repository.
@@ -34,12 +28,6 @@ npm run build
 **Use a Custom Icon**
 
 Add a 256 x 256 .png or .ico image in your public folder. It should be either `icon.ico` or `icon.png`. Update the `icon` property in your `package.json` if necessary. Currently, it uses an image called `icon.png`, which is a graphic of a coffee cup. You'll only see this in production. For more info, see the [electron-builder documentation](https://www.electron.build/icons)
-
-## Contribute
-Feel free to submit an issue or pull request anytime. If a change is made to the codebase with your PR, you'll be listed as a contributor.
-
-### Contributors
-@willjw3 | https://github.com/willjw3
 
 
 
