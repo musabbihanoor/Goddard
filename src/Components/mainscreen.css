@@ -1,3 +1,6 @@
+.body{
+    box-sizing: border-box;
+}
 .logo-img{
     height: 75px;
     width: 125px;
@@ -60,3 +63,9 @@
     height: 80vh;
     border-left: 2px solid orange;
 }
+.center-panel{
+    max-width:500px;
+    
+}
+
+
