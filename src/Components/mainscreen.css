@@ -42,30 +42,51 @@
     background-color: rgb(212, 209, 209);
 } */
 
-.search-bar{
+/* .search-bar{
     margin-left: auto;
     margin-right: 5rem;
     padding-top: 1.5rem;
+} */
+
+.graph-section{
+  /* margin-top: 1rem; */
+  display: flex;
+  height: 72vh;
 }
 
 .left-panel{
-    padding-top: 2rem;
+    /* padding-top: 2rem;
     width: 20rem;
-    height: 80vh;
-    border-right: 2px solid orange;
+    height: 80vh; */
+    border: 2px solid orange;
+    border-top: none;
+    width: 20%;
 }
 
 .right-panel{
-    float: right;
-    margin-top : -80vh;
-    padding-top: 2rem;
-    width: 20rem;
-    height: 80vh;
-    border-left: 2px solid orange;
+  border: 2px solid orange;
+  border-top: none;
+  width: 20%;
+
+
 }
 .center-panel{
-    max-width:500px;
+  border: 2px solid orange;
+  border-top: none;
+  width: 60%;
+
     
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
