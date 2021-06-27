@@ -1,4 +1,4 @@
-# React Electron
+# Goddard Discovery Desktop App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [Electron](https://electronjs.org/), and [electron-builder](https://github.com/electron-userland/electron-builder).
 
 ## Usage
