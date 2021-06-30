@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Usage
 1. Clone this repository.
 ```
-git clone https://github.com/willjw3/react-electron.git <your-project-name>
+git clone https://github.com/Goddard-AGI/Discovery-Desktop.git
 ```
 2. If you havent already, install Yarn globally.
 ```
