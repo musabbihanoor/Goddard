@@ -19,7 +19,7 @@ const Auth = () => {
       <div className='auth'>
         <img src={process.env.PUBLIC_URL + "/logo.png"}></img>
 
-        <h3>{!register ? "Sign up to Register" : "Sign into your account"}</h3>
+        <h3>{!register ? "Sign up to Register " : "Sign into your account"}</h3>
         {register ? <Login2 /> : <Register />}
 
         <div className='option'>
