@@ -7,7 +7,7 @@ export default class Menu extends Component {
     return (
       <div>
         <h1>Welcome to Goddard Discovery</h1>
-        <NavLink to='/graph'> Launch App</NavLink> <br />
+        <NavLink to='/graph'> Launch App </NavLink> <br />
         <NavLink to='/login'> login</NavLink> <br />
         <NavLink to='/mainscreen'> Main Screen</NavLink> <br />
         <NavLink to='/auth'> Authentication</NavLink> <br />
