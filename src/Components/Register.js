@@ -48,7 +48,7 @@ const Register = () => {
           <div className='sub-item'>
             <input
               type='text'
-              placeholder='Enter phone'
+              placeholder='Enter phone '
               value={contact}
               name='contact'
               onChange={(e) => onChange(e)}
