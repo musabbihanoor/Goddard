@@ -1,0 +1,125 @@
+.main2 {
+  display: flex;
+}
+
+.main2 img {
+  height: 60px;
+  margin: 20px;
+}
+
+.main2 nav {
+  width: 5%;
+}
+
+.main2 nav li {
+  list-style: none;
+
+  margin: 30px 0;
+}
+
+.main2 nav li button {
+  display: flex;
+  flex-direction: column;
+
+  border: none;
+
+  padding: 20px;
+  width: 100px;
+}
+
+.unclicked {
+  color: #fff;
+  background-color: transparent;
+}
+
+.main2 nav li i {
+  font-size: 40px;
+}
+
+.clicked {
+  transform: translateX(70px);
+  color: #096191;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.42);
+}
+
+.main2 .content {
+  background-color: white;
+  width: 95%;
+  height: 100vh;
+  border-radius: 50px 0 0 50px;
+  padding: 50px;
+}
+
+.main2 .content .head button {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 0 20px;
+  background: transparent;
+  border: none;
+  background-color: #096191;
+  color: #fff;
+}
+
+.main2 .content .head button i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.main2 .content .head button span {
+  vertical-align: 4px;
+}
+
+.main2 .content .head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main2 .content form input {
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 30px;
+  padding: 10px;
+}
+
+/* .main2 .content form i {
+  border-radius: 20px 0 0 20px;
+  border: 1px solid black;
+  border-right: none;
+
+  line-height: 35px;
+
+  padding: 10px;
+} */
+
+.main2 .content .home {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 50px;
+}
+
+.main2 .content .home button {
+  height: 20px;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+.main2 .content .home .detail {
+  border: 1px solid lightgray;
+  margin-left: 10px;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 14px -8px rgba(0, 0, 0, 0.37);
+}
+
+.main2 .content .home .detail h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}

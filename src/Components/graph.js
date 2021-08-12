@@ -32,12 +32,12 @@ const Graph = (props) => {
       // ref={fgRef}
       // nodeId={"Napoleon"}
       //   onNodeClick={(node, e) => nodeClick(node)}
-      width={940}
+      width={800}
       height={540}
       onNodeClick={(node, e) => trigUpdate(node)}
       graphData={myData}
-      nodeLabel="id"
-      nodeAutoColorBy="group"
+      nodeLabel='id'
+      nodeAutoColorBy='group'
       nodeRelSize={8}
       nodeResolution={12}
       linkOpacity={0.5}

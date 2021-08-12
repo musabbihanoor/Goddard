@@ -1,0 +1,40 @@
+.welcome {
+  color: #fff;
+  float: right;
+  margin-top: 200px;
+  margin-right: 50px;
+}
+
+.welcome h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.welcome button {
+  width: 200px;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 300px;
+  background-color: #096192;
+  border: none;
+  border-radius: 50px;
+  font-size: 24px;
+}
+
+.welcome button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.welcome button:hover {
+  background-color: #fff;
+}
+
+.welcome button a:hover {
+  color: #000;
+}
+
+.welcome button i {
+  margin-left: 10px;
+}
