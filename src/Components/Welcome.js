@@ -14,7 +14,7 @@ const Welcome = () => {
       <h1>
         Welcome to Goddard <br></br> Research Assistant!
       </h1>
-      <h2>Start Exploring...</h2>
+      <h2>Start Exploring... </h2>
       <button>
         <Link to='/auth'>
           Continue<i className='fa fa-arrow-right'></i>
