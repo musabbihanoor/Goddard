@@ -83,15 +83,15 @@ const Mainscreen2 = () => {
       <div className='content'>
         <div className='head'>
           <div>
-            <button>
-              <input />
+            <label>
               <i className='fa fa-plus-circle'></i>
+              <input type='file' style={{ display: "none" }} required></input>
               <span>Add</span>
-            </button>
-            <button>
+            </label>
+            <label>
               <i className='fa fa-times-circle-o'></i>
               <span>Remove</span>
-            </button>
+            </label>
           </div>
           <form>
             <input type='text' placeholder='🔎 Search'></input>

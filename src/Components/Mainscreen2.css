@@ -52,7 +52,7 @@
   padding: 50px;
 }
 
-.main2 .content .head button {
+.main2 .content .head label {
   width: 150px;
   height: 50px;
   border-radius: 50px;
@@ -61,14 +61,15 @@
   border: none;
   background-color: #096191;
   color: #fff;
+  padding: 10px 20px;
 }
 
-.main2 .content .head button i {
+.main2 .content .head label i {
   font-size: 30px;
   margin-right: 10px;
 }
 
-.main2 .content .head button span {
+.main2 .content .head label span {
   vertical-align: 4px;
 }
 
