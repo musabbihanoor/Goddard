@@ -34,7 +34,7 @@ const Login2 = () => {
           <div className='sub-item'>
             <input
               type='password'
-              placeholder='Enter Password'
+              placeholder='Enter Password '
               value={password}
               name='password'
               onChange={(e) => onChange(e)}
