@@ -13,6 +13,7 @@
   "homepage": "./",
   "private": true,
   "dependencies": {
+    "axios": "^0.21.1",
     "cross-env": "^6.0.3",
     "electron-is-dev": "^1.1.0",
     "react": "^16.11.0",
@@ -29,7 +30,8 @@
     "eject-react": "react-scripts eject",
     "build-electron": "electron-builder",
     "build": "yarn build-react && yarn build-electron",
-    "start": "concurrently \"cross-env BROWSER=none yarn start-react\" \"wait-on http://localhost:3000 && electron .\""
+    "start": "concurrently \"cross-env BROWSER=none yarn start-react\" \"wait-on http://localhost:3000 && electron .\"",
+    "server": "nodemon server"
   },
   "eslintConfig": {
     "extends": "react-app"
